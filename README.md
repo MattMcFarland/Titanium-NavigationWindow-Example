@@ -38,7 +38,7 @@ function openBlueWindow(e) {
 
 $.win1.open();
 ```
-> Looks like our index.js is a very simple deal.  First thing you want to ignore is the function openBlueWindow(e) - because that's not happening when you run the app.  The last line $.win1.open() is the only thing that fires when you start it.  $.win1.open() is clearly opening something with the id of win1, which just so happens to be our NavigationWindow!
+> Looks like our index.js is a very simple deal.  First thing you want to ignore is the function openBlueWindow(e) - because that's not happening when you run the app.  The last line $.win1.open() is the only thing that fires when you start it.  $.win1.open() is clearly opening something with the id of win1, which just so happens to be our NavigationWindow!  What about that openBlueWindow(e) ??  Take a look at the xml file above for index, look at the button.
 
 #### app/views/bluewin.xml:
 ```xml
