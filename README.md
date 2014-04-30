@@ -16,6 +16,7 @@
 Basically I copy pasted exactly what the Docs said, you can see the instructions here:
 
 #### app/views/index.xml:
+
 ```xml
 <Alloy>
     <NavigationWindow id="win1" platform="ios">
@@ -28,6 +29,7 @@ Basically I copy pasted exactly what the Docs said, you can see the instructions
 > index being the first to start, we clearly see NavigationWindow, then a Window underneath with a button with an onclick event.  We can also clearly see the id of the NavigationWindow is win1, the child window id is win2, with a title of 'red window' and a background color of red.  Inside the window, one simple button reveals an onclick event.. 
 
 #### app/controllers/index.js:
+
 ```js
 function openBlueWindow(e) {
     var win3 = Alloy.createController('bluewin').getView();
@@ -49,6 +51,7 @@ $.win1.open();
 > Here we see in bluewin.xml, just a simple window with the id of win3, the title of 'blue window' and a background color of blue.  Again we see another button similar to index.xml.  One can only imagine what this does, and we'll know for sure when we look at bluewin.js
 
 #### app/controllers/bluewin.js:
+
 ```js
 function closeWindow(){
     $.win3.close();
