@@ -1,7 +1,6 @@
-Titanium NavigationWindow Example
+# Titanium NavigationWindow Example
 
-This is a working example based on the Titanium DOC found here: 
-http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iOS.NavigationWindow
+*This is a working example based on the Titanium DOC found [here]:(http://docs.appcelerator.com/titanium/3.0/#!/api/Titanium.UI.iOS.NavigationWindow)*
 
 
 Titanium.Proxy > Titanium.UI.View > Titanium.UI.Window > Titanium.UI.iOS.NavigationWindow
